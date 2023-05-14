@@ -10,7 +10,9 @@ const Hero = () => {
           alt="website summerize logo"
         />
         <img
-          onClick={() => window.open("https://github.com/sabbir-shuvo-ux/")}
+          onClick={() =>
+            window.open("https://github.com/sabbir-shuvo-ux/website-summerizer")
+          }
           className="cursor-pointer w-[2.5rem] object-contain"
           src={github}
           alt="github logo"
