@@ -32,3 +32,23 @@ Run development
 ```bash
   npm run dev
 ```
+
+## Contributors
+
+<a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=sabbir-shuvo-ux/website-summerizer"/>
+</a>
+
+<!-- ========================================
+## COPY and PASTE BELOW CODE TO SHOW YOUR PROFILE IN CONTRIBUTION SECTION
+======================================== -->
+
+<!-- make sure you change "GitHub_username" to your github username -->
+
+<!-- <a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
+  <img src = "https://contrib.rocks/image?repo=GitHub_username/repository_name"/>
+</a> -->
+
+<!-- ========================================
+## END CONTRIBUTE SECTION
+======================================== -->
