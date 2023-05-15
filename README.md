@@ -27,13 +27,19 @@ Install dependencies
   npm install
 ```
 
+You need an API key to use this app, get it from here:
+
+```bash
+  https://rapidapi.com/restyler/api/article-extractor-and-summarizer
+```
+
 Run development
 
 ```bash
   npm run dev
 ```
 
-## Contributors
+## Contributer
 
 <a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=sabbir-shuvo-ux/website-summerizer"/>
