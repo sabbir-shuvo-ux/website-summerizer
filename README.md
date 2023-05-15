@@ -1,6 +1,9 @@
 # Ai Summarizer
 
-This project can help you summarize any website. I used here third-party API to analyze any website.
+This project can help you summarize any website.
+Live link: https://ai-summarizer1.netlify.app/
+
+I used here third-party API to analyze any website.
 Api link : https://rapidapi.com/restyler/api/article-extractor-and-summarizer
 
 ## Screenshots
