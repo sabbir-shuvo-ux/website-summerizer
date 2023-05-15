@@ -33,7 +33,7 @@ Run development
   npm run dev
 ```
 
-# Contributors
+## Contributors
 
 <a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
   <img src = "https://contrib.rocks/image?repo=sabbir-shuvo-ux/website-summerizer"/>
