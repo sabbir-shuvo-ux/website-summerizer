@@ -1,7 +1,16 @@
-import React from "react";
-import { loader } from "../assets/index";
+import React, { useState } from "react";
+import { loader, copy, tick } from "../assets/index";
 
 const ResultArea = ({ isLoading, text, resultArea }) => {
+
+  const [copied, setCopied] = useState('');
+
+  const handleCopy = () => {
+    setCopied(text.storedSummary);
+    navigator.clipboard.writeText(text.storedSummary);
+    setTimeout(() => setCopied(''), 5000);
+  }
+
   return (
     <>
       {isLoading && (
@@ -22,7 +31,18 @@ const ResultArea = ({ isLoading, text, resultArea }) => {
           </div>
 
           {!isLoading && (
-            <div className="summary_box">{text.storedSummary}</div>
+            <div className="summary_box relative">
+              <div className="absolute top-3 right-3 w-8 h-8 rounded-full bg-gray-200 flex justify-center items-center cursor-pointer"
+              onClick={handleCopy}
+              title={copied ? "copied" : "copy"}
+              >
+                <img 
+                  src={copied ? tick : copy}
+                  alt={copied ? "tick_icon": "copy_icon"} 
+                  className="w-5 h-5"/>
+              </div>
+              <div>{text.storedSummary}</div>
+            </div>
           )}
         </div>
       )}
