@@ -18,9 +18,9 @@ const InputBox = ({ searchBox, handleSubmit, result, setResult }) => {
             })
           }
           className="url_input peer w-full"
-          type="url"
+          type="text"
           required
-          placeholder="Enter Your Targeted URL"
+          placeholder="Enter Your Targeted URL or Articles"
         />
         <button className="submit_btn peer-focus:border-gray-700 peer-focus:text-gray-700">
           &#9166;
