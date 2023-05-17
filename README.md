@@ -52,6 +52,10 @@ Run development
   <img src = "https://contrib.rocks/image?repo=promise-dash/website-summerizer"/>
 </a>
 
+<a href = "https://github.com/ThienBNguyen">
+  <img src = "https://avatars.githubusercontent.com/u/48506100?s=400&u=0e91479bfeb73a0375affa3691b1044e2b77ba8a&v=4"/>
+</a>
+
 <!-- ========================================
 ## COPY and PASTE BELOW CODE TO SHOW YOUR PROFILE IN CONTRIBUTION SECTION
 ======================================== -->
